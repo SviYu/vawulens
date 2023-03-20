@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
       <nav>
           <div className="container nav_container">
-            <Link to="/" className='logo' onClick={() => setNavShowing(false)}>
+            <Link to="/vawulens" className='logo' onClick={() => setNavShowing(false)}>
                 <img src={logo} alt="Navbar Logo" />
             </Link> 
 
